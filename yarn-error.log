@@ -1,0 +1,53 @@
+Arguments: 
+  /Users/jim/.nvm/versions/node/v8.2.1/bin/node /usr/local/Cellar/yarn/1.3.2/libexec/bin/yarn.js publish
+
+PATH: 
+  /Users/jim/.rvm/gems/ruby-2.4.1/bin:/Users/jim/.rvm/gems/ruby-2.4.1@global/bin:/Users/jim/.rvm/rubies/ruby-2.4.1/bin:/Users/jim/.nvm/versions/node/v8.2.1/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/jim/.rvm/bin
+
+Yarn version: 
+  1.3.2
+
+Node version: 
+  8.2.1
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "horizontal-scrollto",
+    "version": "1.0.3",
+    "description": "a simple plugin to make animation for horizontal scroll",
+    "main": "index.js",
+    "scripts": {
+      "test": ""
+    },
+    "keywords": [
+      "horizontal",
+      "scroll"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/lichin-lin/horizontal-scrollTo.git"
+    },
+    "author": "lichin-lin",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/lichin-lin/horizontal-scrollTo/issues"
+    },
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  SyntaxError: /Users/jim/github/horizontal-scrollTo/package.json: Unexpected token } in JSON at position 488
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.3.2/libexec/lib/cli.js:770:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.3.2/libexec/lib/cli.js:92:30)
+      at /usr/local/Cellar/yarn/1.3.2/libexec/lib/cli.js:103:13
+      at <anonymous>

@@ -1,0 +1,22 @@
+{
+  "name": "horizontal-scrollto",
+  "version": "1.0.4",
+  "description": "a simple plugin to make animation for horizontal scroll",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "keywords": [
+    "horizontal",
+    "scroll"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lichin-lin/horizontal-scrollTo.git"
+  },
+  "author": "lichin-lin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lichin-lin/horizontal-scrollTo/issues"
+  }
+}
